@@ -5,17 +5,21 @@ body{
 	padding: 0;
 	margin: 0;
 	background-color: #f4f4f4;
+	
 	 }
+
 
  ul{
 	padding: 0;
 	margin: 0;
 }
 
+
 .container {
 	width: 80%;
 	margin: auto;
 	overflow: hidden;
+
 }
 /* Header **/
 header{
@@ -24,6 +28,7 @@ header{
 	padding-top: 30px;
 	min-height: 50px;
 	border-bottom: 3px solid #e8491d;
+	position: sticky;
 
 }
 
@@ -104,9 +109,14 @@ header a:hover {
 }
 
 #boxes {
+	padding: 10px;
 	background-color: #e8491d;
 	color: #fff;
+	max-height: 800px;
+	
+	
 }
+
 
 .box1 {
 	width: 300px;
@@ -120,14 +130,22 @@ header a:hover {
 }
 
 .box3 {
-	float: left;
+	float: right;
 	width: 300px;
 }
 
+
 .box4 {
 	width: 300px;
-	float: right;
+	float: left;
 }
+
+.box5 {
+	width: 300px;
+	float: right;
+
+}
+
 
 .foot {
 	text-align: center;
@@ -143,8 +161,39 @@ header a:hover {
 	color: #fff;
 }
 
+/*About Page*/
 
+#container {
+	background-color: #e8491d;
+	padding: 10px;
+	color: #fff;
+	width: 100%;
+	padding-right: 20px;
+	min-height: 500px;
+	
 
+}
 
+#container a{
+     text-decoration: none;
+     color: #35424a;
 
+}
+#container a:hover{
+	color: #fff;
+}
+.foot2 {
+	text-align: center;
+	background-color: #35424a;
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+}
+
+.foot2 p{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 50px;
+	color: #fff;
+}
 
